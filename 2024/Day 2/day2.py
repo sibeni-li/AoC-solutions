@@ -54,7 +54,7 @@ def solve2a(samp):
     total = len(increasing(xs))+len(decreasing(xs))
     return total
 
-print(solve2a(inp))
+print(solve2a(inp)) # => 314
 
 # Part 2
 
@@ -135,4 +135,4 @@ def solve2b(samp):
     total = tot1 + tot2 + tot3
     return total
 
-print(solve2b(inp))
+print(solve2b(inp)) # => 373

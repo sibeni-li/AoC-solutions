@@ -1,6 +1,3 @@
-# from aocd import get_data
-# inp = get_data(day=1, year=2022)
-
 import os
 
 def get_data(day):
@@ -38,7 +35,7 @@ def answer(inp):
         cals.append(totcal(e))
     return max(cals)
 
-print(answer(inp)) #=> 458397
+print(answer(inp)) # => 66186
 
 # Part 2
 
@@ -61,4 +58,4 @@ def answer2(inp):
     cals.sort()
     return totcal(cals[-3:])
 
-print(answer2(inp))
+print(answer2(inp)) # => 196804
